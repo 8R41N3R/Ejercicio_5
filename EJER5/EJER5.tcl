@@ -98,7 +98,7 @@ set_property -name "part" -value "xc7a100tcsg324-1" -objects $obj
 set_property -name "sim.central_dir" -value "$proj_dir/${_xil_proj_name_}.ip_user_files" -objects $obj
 set_property -name "sim.ip.auto_export_scripts" -value "1" -objects $obj
 set_property -name "simulator_language" -value "Mixed" -objects $obj
-set_property -name "webtalk.xsim_launch_sim" -value "43" -objects $obj
+set_property -name "webtalk.xsim_launch_sim" -value "53" -objects $obj
 
 # Create 'sources_1' fileset (if not found)
 if {[string equal [get_filesets -quiet sources_1] ""]} {
@@ -108,14 +108,14 @@ if {[string equal [get_filesets -quiet sources_1] ""]} {
 # Set 'sources_1' fileset object
 set obj [get_filesets sources_1]
 set files [list \
- [file normalize "${origin_dir}/../src/design/param_full_adder.sv"] \
+ [file normalize "${origin_dir}/../src/design/param_rca.sv"] \
  [file normalize "${origin_dir}/../src/design/param_cla.sv"] \
  [file normalize "${origin_dir}/../src/design/full_adder_1bit.sv"] \
 ]
 add_files -norecurse -fileset $obj $files
 
 # Set 'sources_1' fileset file properties for remote files
-set file "$origin_dir/../src/design/param_full_adder.sv"
+set file "$origin_dir/../src/design/param_rca.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
@@ -136,7 +136,7 @@ set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
 
 # Set 'sources_1' fileset properties
 set obj [get_filesets sources_1]
-set_property -name "top" -value "param_full_adder" -objects $obj
+set_property -name "top" -value "param_rca" -objects $obj
 set_property -name "top_auto_set" -value "0" -objects $obj
 
 # Create 'constrs_1' fileset (if not found)
@@ -169,14 +169,14 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 # Set 'sim_1' fileset object
 set obj [get_filesets sim_1]
 set files [list \
- [file normalize "${origin_dir}/../src/simulation/param_sim_full_adder.sv"] \
+ [file normalize "${origin_dir}/../src/simulation/param_sim_rca.sv"] \
  [file normalize "${origin_dir}/../src/simulation/param_sim_cla.sv"] \
  [file normalize "${origin_dir}/../src/simulation/sim_full_adder.sv"] \
 ]
 add_files -norecurse -fileset $obj $files
 
 # Set 'sim_1' fileset file properties for remote files
-set file "$origin_dir/../src/simulation/param_sim_full_adder.sv"
+set file "$origin_dir/../src/simulation/param_sim_rca.sv"
 set file [file normalize $file]
 set file_obj [get_files -of_objects [get_filesets sim_1] [list "*$file"]]
 set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
@@ -197,7 +197,7 @@ set_property -name "file_type" -value "SystemVerilog" -objects $file_obj
 
 # Set 'sim_1' fileset properties
 set obj [get_filesets sim_1]
-set_property -name "top" -value "param_sim_full_adder" -objects $obj
+set_property -name "top" -value "param_sim_rca" -objects $obj
 set_property -name "top_auto_set" -value "0" -objects $obj
 set_property -name "top_lib" -value "xil_defaultlib" -objects $obj
 
@@ -228,6 +228,7 @@ if { $obj != "" } {
 
 }
 set obj [get_runs synth_1]
+set_property -name "needs_refresh" -value "1" -objects $obj
 set_property -name "part" -value "xc7a100tcsg324-1" -objects $obj
 set_property -name "strategy" -value "Vivado Synthesis Defaults" -objects $obj
 

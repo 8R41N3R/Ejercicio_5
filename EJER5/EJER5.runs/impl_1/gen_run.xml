@@ -1,69 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1659946583">
-  <File Type="BITSTR-BMM" Name="param_full_adder_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="param_full_adder_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="param_full_adder_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="param_full_adder_power_routed.rpt"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1659983281">
   <File Type="PA-TCL" Name="param_full_adder.tcl"/>
-  <File Type="OPT-TIMING" Name="param_full_adder_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="param_full_adder_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="param_full_adder_power_summary_routed.pb"/>
+  <File Type="BITSTR-BMM" Name="param_full_adder_bd.bmm"/>
   <File Type="REPORTS-TCL" Name="param_full_adder_reports.tcl"/>
-  <File Type="OPT-DRC" Name="param_full_adder_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="param_full_adder_opt.dcp"/>
   <File Type="OPT-HWDEF" Name="param_full_adder.hwdef"/>
   <File Type="PWROPT-DCP" Name="param_full_adder_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="param_full_adder_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="param_full_adder_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="param_full_adder_placed.dcp"/>
-  <File Type="PLACE-IO" Name="param_full_adder_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="param_full_adder_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="param_full_adder_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="param_full_adder_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="param_full_adder_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="param_full_adder_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="param_full_adder_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="param_full_adder.bgn"/>
-  <File Type="PLACE-TIMING" Name="param_full_adder_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="param_full_adder_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="param_full_adder.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="param_full_adder_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="param_full_adder_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="param_full_adder_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="param_full_adder.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="param_full_adder_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="param_full_adder_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="param_full_adder_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="param_full_adder_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="param_full_adder_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="param_full_adder_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="param_full_adder.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="param_full_adder_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="param_full_adder.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="param_full_adder_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="param_full_adder_methodology_drc_routed.rpx"/>
   <File Type="BITSTR-SYSDEF" Name="param_full_adder.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="param_full_adder_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="param_full_adder_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="param_full_adder_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="param_full_adder_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="param_full_adder_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="param_full_adder_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="param_full_adder_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="param_full_adder_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="param_full_adder_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="param_full_adder_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="param_full_adder_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="param_full_adder_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="param_full_adder_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="param_full_adder_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="param_full_adder_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="param_full_adder_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="param_full_adder_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="param_full_adder_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="param_full_adder_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="param_full_adder.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="param_full_adder_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="param_full_adder.rbt"/>
   <File Type="BITSTR-NKY" Name="param_full_adder.nky"/>
   <File Type="BG-DRC" Name="param_full_adder.drc"/>

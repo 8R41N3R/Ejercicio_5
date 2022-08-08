@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 07.08.2022 14:52:18
+// Create Date: 08.08.2022 15:29:31
 // Design Name: 
-// Module Name: param_full_adder
+// Module Name: param_rca
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -40,7 +40,7 @@ module full_adder(s0, s1, cin, cout, sum);
 
 endmodule
 
-module param_full_adder #(parameter WIDTH = 1)(A, B, result, tam);
+module param_rca #(parameter WIDTH = 1)(A, B, result, tam);
     
     
     input  logic [WIDTH-1:0] A;                     // declaracion de entradas y salidas
@@ -78,5 +78,3 @@ module param_full_adder #(parameter WIDTH = 1)(A, B, result, tam);
 
     assign result = {carry[WIDTH], sum};            // concatenacion
 endmodule
-
-

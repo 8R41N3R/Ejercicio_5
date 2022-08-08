@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 07.08.2022 15:51:02
+// Create Date: 08.08.2022 15:31:29
 // Design Name: 
-// Module Name: param_sim_full_adder
+// Module Name: param_sim_rca
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module param_sim_full_adder;
+module param_sim_rca;
 
     parameter WIDTH = 8;
     
@@ -29,7 +29,7 @@ module param_sim_full_adder;
     logic [WIDTH:0]   result;
     logic [WIDTH-1:0] tam;
     
-    param_full_adder #(.WIDTH(WIDTH))DUT(
+    param_rca #(.WIDTH(WIDTH))DUT(
     .A          (A),
     .B          (B),
     .result     (result),

@@ -2,11 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Aug  7 18:22:42 2022
-# Process ID: 22552
+# Start of session at: Mon Aug  8 15:34:46 2022
+# Process ID: 23900
 # Current directory: D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/xsim.dir/sim_full_adder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/xsim.dir/param_sim_rca_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/xsim.dir/sim_full_adder_behav/webtalk/xsim_webtalk.tcl -notrace
+source D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/xsim.dir/param_sim_rca_behav/webtalk/xsim_webtalk.tcl -notrace
