@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1659940231">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1659946583">
   <File Type="BITSTR-BMM" Name="param_full_adder_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="param_full_adder_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="param_full_adder_timing_summary_init.rpt"/>

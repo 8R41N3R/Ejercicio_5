@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon Aug  8 00:31:48 2022
-# Process ID: 21240
+# Start of session at: Mon Aug  8 02:16:30 2022
+# Process ID: 30888
 # Current directory: D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.runs/impl_1
 # Command line: vivado.exe -log param_full_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source param_full_adder.tcl -notrace
 # Log file: D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.runs/impl_1/param_full_adder.vdi
