@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"sim_full_adder_8bits_time_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../../src/simulation/sim_full_adder_8bits.sv" \
+
+# Do not sort compile order
+nosort

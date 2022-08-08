@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/design/param_cla.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_2
+INFO: [VRFC 10-311] analyzing module param_cla
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/simulation/param_sim_cla.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module param_sim_cla

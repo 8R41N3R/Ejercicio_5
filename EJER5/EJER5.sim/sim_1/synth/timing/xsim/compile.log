@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/synth/timing/xsim/sim_full_adder_8bits_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_8bits
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/simulation/sim_full_adder_8bits.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_full_adder_8bits

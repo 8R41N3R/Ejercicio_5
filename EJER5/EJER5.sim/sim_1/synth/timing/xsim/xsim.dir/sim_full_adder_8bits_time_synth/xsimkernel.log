@@ -1,0 +1,7 @@
+Running: xsim.dir/sim_full_adder_8bits_time_synth/xsimk.exe -simmode gui -wdb sim_full_adder_8bits_time_synth.wdb -simrunnum 0 -socket 49405
+Design successfully loaded
+Design Loading Memory Usage: 6668 KB (Peak: 6668 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7476 KB (Peak: 7476 KB)
+Simulation CPU Usage: 0 ms
