@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1660170249">
+  <File Type="BITSTR-BMM" Name="module_cla_8bits_bd.bmm"/>
   <File Type="ROUTE-PWR" Name="module_cla_8bits_power_routed.rpt"/>
   <File Type="PA-TCL" Name="module_cla_8bits.tcl"/>
-  <File Type="BITSTR-BMM" Name="module_cla_8bits_bd.bmm"/>
+  <File Type="OPT-DCP" Name="module_cla_8bits_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="module_cla_8bits_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="module_cla_8bits_reports.tcl"/>
-  <File Type="OPT-DCP" Name="module_cla_8bits_opt.dcp"/>
   <File Type="OPT-DRC" Name="module_cla_8bits_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="module_cla_8bits.hwdef"/>
   <File Type="PWROPT-DCP" Name="module_cla_8bits_pwropt.dcp"/>
@@ -25,19 +25,20 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="module_cla_8bits_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="module_cla_8bits_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="module_cla_8bits_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="module_cla_8bits_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="module_cla_8bits.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="module_cla_8bits_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="module_cla_8bits_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="module_cla_8bits.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="module_cla_8bits_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="module_cla_8bits_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="module_cla_8bits_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="module_cla_8bits.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="module_cla_8bits_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="module_cla_8bits_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="module_cla_8bits_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="module_cla_8bits_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="module_cla_8bits_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="module_cla_8bits_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="module_cla_8bits_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="module_cla_8bits.vdi"/>
   <File Type="ROUTE-CLK" Name="module_cla_8bits_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="module_cla_8bits_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="module_cla_8bits_bus_skew_routed.pb"/>
@@ -48,7 +49,6 @@
   <File Type="BITSTR-RBT" Name="module_cla_8bits.rbt"/>
   <File Type="BITSTR-NKY" Name="module_cla_8bits.nky"/>
   <File Type="BG-DRC" Name="module_cla_8bits.drc"/>
-  <File Type="RDI-RDI" Name="module_cla_8bits.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
