@@ -24,26 +24,24 @@ module param_sim_cla;
 
     parameter WIDTH2 = 8;
     
-    logic [WIDTH2-1:0] A = 0;
-    logic [WIDTH2-1:0] B = 0;
-    logic [WIDTH2:0]   result;
+    logic [WIDTH2-1:0] A_pi = 0;
+    logic [WIDTH2-1:0] B_pi = 0;
+    logic [WIDTH2-1:0] result_po;
     logic [WIDTH2-1:0] tam;
     
     param_cla #(.WIDTH2(WIDTH2))DUT(
-    .A          (A),
-    .B          (B),
-    .result     (result),
-    .tam        (tam)
+    .A_pi          (A_pi),
+    .B_pi          (B_pi),
+    .result_po     (result_po)
     );
     
     initial begin
         
-        repeat (tam) begin
+        repeat (10) begin
             
-            #10;
-            A = $random%tam;
-            B = $random%tam;
-            #1;
+            #100;
+            A_pi = {$random} %8'hff;
+            B_pi = {$random} %8'hff;
         end
     #10;
     

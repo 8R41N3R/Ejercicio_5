@@ -1,51 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1659983281">
-  <File Type="PA-TCL" Name="param_full_adder.tcl"/>
-  <File Type="BITSTR-BMM" Name="param_full_adder_bd.bmm"/>
-  <File Type="REPORTS-TCL" Name="param_full_adder_reports.tcl"/>
-  <File Type="OPT-DCP" Name="param_full_adder_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="param_full_adder.hwdef"/>
-  <File Type="PWROPT-DCP" Name="param_full_adder_pwropt.dcp"/>
-  <File Type="PLACE-DCP" Name="param_full_adder_placed.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="param_full_adder_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="param_full_adder.bgn"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="param_full_adder_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="param_full_adder.bin"/>
-  <File Type="PHYSOPT-DCP" Name="param_full_adder_physopt.dcp"/>
-  <File Type="BITSTR-MSK" Name="param_full_adder.msk"/>
-  <File Type="ROUTE-ERROR-DCP" Name="param_full_adder_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="param_full_adder_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="param_full_adder_routed_bb.dcp"/>
-  <File Type="BITSTR-LTX" Name="param_full_adder.ltx"/>
-  <File Type="BITSTR-MMI" Name="param_full_adder.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="param_full_adder.sysdef"/>
-  <File Type="ROUTE-TIMING-PB" Name="param_full_adder_timing_summary_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="param_full_adder_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="param_full_adder_postroute_physopt_bb.dcp"/>
-  <File Type="BG-BIT" Name="param_full_adder.bit"/>
-  <File Type="BITSTR-RBT" Name="param_full_adder.rbt"/>
-  <File Type="BITSTR-NKY" Name="param_full_adder.nky"/>
-  <File Type="BG-DRC" Name="param_full_adder.drc"/>
-  <File Type="RDI-RDI" Name="param_full_adder.vdi"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1660170249">
+  <File Type="BITSTR-BMM" Name="module_cla_8bits_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="module_cla_8bits_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="module_cla_8bits_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="module_cla_8bits_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="module_cla_8bits.tcl"/>
+  <File Type="OPT-TIMING" Name="module_cla_8bits_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="module_cla_8bits_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="module_cla_8bits_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="module_cla_8bits_reports.tcl"/>
+  <File Type="OPT-DRC" Name="module_cla_8bits_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="module_cla_8bits.hwdef"/>
+  <File Type="PWROPT-DCP" Name="module_cla_8bits_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="module_cla_8bits_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="module_cla_8bits_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="module_cla_8bits_placed.dcp"/>
+  <File Type="PLACE-IO" Name="module_cla_8bits_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="module_cla_8bits_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="module_cla_8bits_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="module_cla_8bits_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="module_cla_8bits_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="module_cla_8bits_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="module_cla_8bits_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="module_cla_8bits.bgn"/>
+  <File Type="PLACE-TIMING" Name="module_cla_8bits_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="module_cla_8bits_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="module_cla_8bits.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="module_cla_8bits_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="module_cla_8bits_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="module_cla_8bits_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="module_cla_8bits.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="module_cla_8bits_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="module_cla_8bits_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="module_cla_8bits_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="module_cla_8bits_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="module_cla_8bits_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="module_cla_8bits_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="module_cla_8bits.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="module_cla_8bits_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="module_cla_8bits.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="module_cla_8bits_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="module_cla_8bits_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="module_cla_8bits.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="module_cla_8bits_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="module_cla_8bits_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="module_cla_8bits_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="module_cla_8bits_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="module_cla_8bits_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="module_cla_8bits_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="module_cla_8bits_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="module_cla_8bits_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="module_cla_8bits_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="module_cla_8bits_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="module_cla_8bits_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="module_cla_8bits_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="module_cla_8bits_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="module_cla_8bits_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="module_cla_8bits_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="module_cla_8bits_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="module_cla_8bits_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="module_cla_8bits_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="module_cla_8bits_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="module_cla_8bits.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="module_cla_8bits_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="module_cla_8bits.rbt"/>
+  <File Type="BITSTR-NKY" Name="module_cla_8bits.nky"/>
+  <File Type="BG-DRC" Name="module_cla_8bits.drc"/>
+  <File Type="RDI-RDI" Name="module_cla_8bits.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../src/design/param_full_adder.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../src/design/param_cla.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/../src/design/full_adder_1bit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/design/module_cla_8bits.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/design/module_rca_8bits.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -55,19 +95,33 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="param_full_adder"/>
+      <Option Name="TopModule" Val="module_cla_8bits"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PPRDIR/../src/constraints/Nexys-4-Master.xdc">
       <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/constraints/Nexys-4-Master-full-adder.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/constraints/Nexys-4-Master-rca-8bits.xdc">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/constraints/Nexys-4-Master.xdc"/>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/constraints/Nexys-4-Master-rca-8bits.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

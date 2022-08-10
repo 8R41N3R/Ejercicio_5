@@ -22,28 +22,28 @@
 
 module param_sim_rca;
 
-    parameter WIDTH = 8;
+    parameter WIDTH = 64;
     
-    logic [WIDTH-1:0] A = 0;
-    logic [WIDTH-1:0] B = 0;
-    logic [WIDTH:0]   result;
-    logic [WIDTH-1:0] tam;
+    logic [WIDTH-1:0] A_pi = 0;
+    logic [WIDTH-1:0] B_pi = 0;
+    logic [WIDTH-1:0] result_po;
+    logic             clk_pi;
     
     param_rca #(.WIDTH(WIDTH))DUT(
-    .A          (A),
-    .B          (B),
-    .result     (result),
-    .tam        (tam)
+    .A_Pi          (A_pi),
+    .B_pi          (B_pi),
+    .result_po     (result_po),
+    .clk_pi        (clk_pi)
     );
     
     initial begin
         
-        repeat (tam) begin
+        
+        repeat (10) begin
             
-            #10;
-            A = $random%tam;
-            B = $random%tam;
-            #1;
+            #100;
+            A_pi = {$random} %64'hffffffffffffffff;
+            B_pi = {$random} %64'hffffffffffffffff;
         end
     #10;
     

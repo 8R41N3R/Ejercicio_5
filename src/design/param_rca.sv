@@ -40,14 +40,11 @@ module full_adder(s0, s1, cin, cout, sum);
 
 endmodule
 
-module param_rca #(parameter WIDTH = 1)(A, B, result, tam);
-    
-    
-    input  logic [WIDTH-1:0] A;                     // declaracion de entradas y salidas
-    input  logic [WIDTH-1:0] B;
-    output logic [WIDTH:0]   result;
-    output logic [WIDTH-1:0] tam;                   // esta es para guardar el calor mas alto dependiendo de
-                                                    // el ancho de bits ingresado
+module param_rca #(parameter WIDTH = 1)(
+    input  logic [WIDTH-1:0] A_pi,                     // declaracion de entradas y salidas
+    input  logic [WIDTH-1:0] B_pi,
+    output logic [WIDTH-1:0] result_po,
+    input  logic             clk_pi);
     
     logic [WIDTH:0]   carry;                        // declaracion de coneciones internas
     logic [WIDTH-1:0] sum;
@@ -59,8 +56,8 @@ module param_rca #(parameter WIDTH = 1)(A, B, result, tam);
         for (ii = 0; ii<WIDTH; ii=ii+1)             // inicializacion del for
             begin
                 full_adder param(                   // se usa el full adder 1bit para la asigancion de datos
-                .s0         (A[ii]),
-                .s1         (B[ii]),
+                .s0         (A_pi[ii]),
+                .s1         (B_pi[ii]),
                 .cin        (carry[ii]),
                 .cout       (carry[ii+1]),
                 .sum        (sum[ii])
@@ -68,13 +65,6 @@ module param_rca #(parameter WIDTH = 1)(A, B, result, tam);
             end
     endgenerate
 
-    genvar jj;
-    generate
-        for (jj = 0; jj<WIDTH; jj=jj+1)             // este for es para obtener el numero mas alto que se
-            begin                                   // pueda obtener dependiendo del ancho de bits ingresado
-                assign tam[jj] = 1'b1;
-            end
-    endgenerate
 
-    assign result = {carry[WIDTH], sum};            // concatenacion
+    assign result_po = {carry[WIDTH], sum};            // concatenacion
 endmodule
