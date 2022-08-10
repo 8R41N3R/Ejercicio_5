@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 07.08.2022 17:43:45
+// Create Date: 10.08.2022 16:38:13
 // Design Name: 
-// Module Name: param_sim_cla
+// Module Name: module_sim_cla_8bits
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,33 +20,33 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module param_sim_cla;
+module module_sim_cla_8bits;
 
-    parameter WIDTH2 = 8;
+parameter WIDTH2 = 8;
     
-    logic [WIDTH2-1:0] A_pi = 0;
-    logic [WIDTH2-1:0] B_pi = 0;
+    logic [WIDTH2-1:0] a_pi;
+    logic [WIDTH2-1:0] b_pi;
     logic [WIDTH2-1:0] result_po;
-    logic [WIDTH2-1:0] tam;
     
-    param_cla #(.WIDTH2(WIDTH2))DUT(
-    .A_pi          (A_pi),
-    .B_pi          (B_pi),
+    
+    
+    module_cla_8bits #(.WIDTH2(WIDTH2))DUT(
+    .a_pi          (a_pi),
+    .b_pi          (b_pi),
     .result_po     (result_po)
     );
     
-    initial begin
-        
-        repeat (10) begin
+    
+    initial begin   
+        repeat (20) begin
             
-            #100;
-            A_pi = {$random} %8'hff;
-            B_pi = {$random} %8'hff;
+            #10;
+            a_pi = $random %8'hff;
+            b_pi = $random %8'hff;
         end
     #10;
     
     $finish;
     
     end
-
 endmodule

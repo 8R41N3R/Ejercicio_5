@@ -2,7 +2,7 @@
 sv xil_defaultlib  \
 "../../../../../src/design/full_adder_1bit.sv" \
 "../../../../../src/design/module_cla_8bits.sv" \
-"../../../../EJER5.srcs/sim_1/new/module_sim_cla_8bits.sv" \
+"../../../../../src/simulation/module_sim_cla_8bits.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1660170214">
   <File Type="PA-TCL" Name="module_cla_8bits.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="module_cla_8bits_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="module_cla_8bits_reports.tcl"/>
   <File Type="RDS-RDS" Name="module_cla_8bits.vds"/>
   <File Type="RDS-UTIL" Name="module_cla_8bits_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="module_cla_8bits_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="module_cla_8bits.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="module_cla_8bits_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="module_cla_8bits_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../src/design/full_adder_1bit.sv">
