@@ -1,6 +1,6 @@
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/design/full_adder_1bit.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module full_adder_1bit
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/design/module_cla_8bits.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module module_cla_8bits
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_cla_8bits.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module module_sim_cla_8bits
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/design/module_rca_8bits.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module module_rca_8bits
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_rca_8bits.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module module_sim_rca_8bits

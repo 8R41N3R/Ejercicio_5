@@ -24,9 +24,10 @@ module module_rca_8bits #(parameter WIDTH = 8)(
     input  logic [WIDTH-1:0] a_pi,                  // declaracion de entradas y salidas
     input  logic [WIDTH-1:0] b_pi,
     output logic [WIDTH:0] result_po);
+ 
     
     logic [WIDTH:0]   carry;                        // declaracion de coneciones internas
-    logic [WIDTH:0]   sum;
+    logic [WIDTH-1:0]   sum;
    
     assign carry[0] = 1'b0;                         // asigancion al carry de entrada                        
     

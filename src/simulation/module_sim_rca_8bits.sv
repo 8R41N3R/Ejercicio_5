@@ -25,7 +25,7 @@ module module_sim_rca_8bits;
     
     logic [WIDTH-1:0] a_pi;
     logic [WIDTH-1:0] b_pi;
-    logic [WIDTH-1:0] result_po;
+    logic [WIDTH:0] result_po;
     
     
     

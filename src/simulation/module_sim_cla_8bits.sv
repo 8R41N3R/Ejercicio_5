@@ -22,11 +22,11 @@
 
 module module_sim_cla_8bits;
 
-parameter WIDTH2 = 8;
+parameter WIDTH2 = 64;
     
     logic [WIDTH2-1:0] a_pi;
     logic [WIDTH2-1:0] b_pi;
-    logic [WIDTH2-1:0] result_po;
+    logic [WIDTH2:0] result_po;
     
     
     
@@ -38,11 +38,12 @@ parameter WIDTH2 = 8;
     
     
     initial begin   
-        repeat (20) begin
+        repeat (10) begin
             
-            #10;
-            a_pi = $random %8'hff;
-            b_pi = $random %8'hff;
+            a_pi = 64'hffffffffffffffff;
+            b_pi = 64'hffffffffffffffff;
+            #100;
+            
         end
     #10;
     

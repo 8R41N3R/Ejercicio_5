@@ -3,9 +3,9 @@
 May 24 2019
 15:06:07
 D:/VIVADO/EJER5/Ejercicio_5/EJER5/EJER5.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-D:/VIVADO/EJER5/Ejercicio_5/src/design/full_adder_1bit.sv,1659918021,systemVerilog,,D:/VIVADO/EJER5/Ejercicio_5/src/design/module_cla_8bits.sv,,full_adder_1bit,,,,,,,,
+D:/VIVADO/EJER5/Ejercicio_5/src/design/full_adder_1bit.sv,1659918021,systemVerilog,,D:/VIVADO/EJER5/Ejercicio_5/src/design/module_rca_8bits.sv,,full_adder_1bit,,,,,,,,
 D:/VIVADO/EJER5/Ejercicio_5/src/design/module_cla_8bits.sv,1660170113,systemVerilog,,D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_cla_8bits.sv,,module_cla_8bits,,,,,,,,
-D:/VIVADO/EJER5/Ejercicio_5/src/design/module_rca_8bits.sv,1660165715,systemVerilog,,D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_rca_8bits.sv,,module_rca_8bits,,,,,,,,
-D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_cla_8bits.sv,1660171401,systemVerilog,,,,module_sim_cla_8bits,,,,,,,,
-D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_rca_8bits.sv,1660098034,systemVerilog,,,,module_sim_rca_8bits,,,,,,,,
+D:/VIVADO/EJER5/Ejercicio_5/src/design/module_rca_8bits.sv,1660195304,systemVerilog,,D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_rca_8bits.sv,,module_rca_8bits,,,,,,,,
+D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_cla_8bits.sv,1660173885,systemVerilog,,,,module_sim_cla_8bits,,,,,,,,
+D:/VIVADO/EJER5/Ejercicio_5/src/simulation/module_sim_rca_8bits.sv,1660195392,systemVerilog,,,,module_sim_rca_8bits,,,,,,,,
 D:/VIVADO/EJER5/Ejercicio_5/src/simulation/sim_full_adder.sv,1659820537,systemVerilog,,,,sim_full_adder,,,,,,,,

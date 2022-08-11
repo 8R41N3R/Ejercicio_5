@@ -1,7 +1,7 @@
-Running: xsim.dir/module_sim_cla_8bits_behav/xsimk.exe -simmode gui -wdb module_sim_cla_8bits_behav.wdb -simrunnum 0 -socket 60209
+Running: xsim.dir/module_sim_cla_8bits_behav/xsimk.exe -simmode gui -wdb module_sim_cla_8bits_behav.wdb -simrunnum 0 -socket 60955
 Design successfully loaded
-Design Loading Memory Usage: 6060 KB (Peak: 6060 KB)
-Design Loading CPU Usage: 30 ms
+Design Loading Memory Usage: 6164 KB (Peak: 6164 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 6720 KB (Peak: 6720 KB)
+Simulation Memory Usage: 6952 KB (Peak: 6952 KB)
 Simulation CPU Usage: 30 ms

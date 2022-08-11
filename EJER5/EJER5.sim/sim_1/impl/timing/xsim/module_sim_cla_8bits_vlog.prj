@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"module_sim_cla_8bits_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../src/simulation/module_sim_cla_8bits.sv" \
+
+# Do not sort compile order
+nosort

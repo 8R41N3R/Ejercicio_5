@@ -87,8 +87,8 @@ set_property PACKAGE_PIN U7 [get_ports {result_po[6]}]
 set_property PACKAGE_PIN U6 [get_ports {result_po[7]}]					
 	set_property IOSTANDARD LVCMOS33 [get_ports {result_po[7]}]
 ##Bank = 34, Pin name = IO_L10N_T1_34,						Sch name = LED8
-#set_property PACKAGE_PIN V4 [get_ports {result_po[8]}]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports {result_po[8]}]
+set_property PACKAGE_PIN V4 [get_ports {result_po[8]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {result_po[8]}]
 ##Bank = 34, Pin name = IO_L8N_T1_34,						Sch name = LED9
 #set_property PACKAGE_PIN U3 [get_ports {led[9]}]					
 	#set_property IOSTANDARD LVCMOS33 [get_ports {led[9]}]

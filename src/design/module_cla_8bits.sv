@@ -23,7 +23,7 @@
 module module_cla_8bits #(parameter WIDTH2 = 8)(
     input  logic [WIDTH2-1:0] a_pi,                 // declaracion de entradas y salidas
     input  logic [WIDTH2-1:0] b_pi,
-    output logic [WIDTH2-1:0] result_po);
+    output logic [WIDTH2:0] result_po);
     
     logic [WIDTH2:0]   carry;
     logic [WIDTH2-1:0] sum;                         // declaracion de las coneciones internas
